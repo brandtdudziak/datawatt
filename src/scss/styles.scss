@@ -1,0 +1,46 @@
+$bg-color: #000;
+
+body {
+    background: $bg-color;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, h1, h2, a {
+  color: #fff;
+}
+
+.container p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main h1 {
+  font-size: 32pt;
+}
+
+#goals h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#goals p {
+  text-align: center;
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+  color: #fff;
+}
+
+a {
+  text-decoration: underline;
+  font-size: 11pt;
+}
